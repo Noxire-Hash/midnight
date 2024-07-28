@@ -1,0 +1,32 @@
+{
+  "name": "noxire",
+  "displayName": "Midnight",
+  "description": "Cool colors that dosnt hurt eyes while maintaining beuty ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "publisher": "noxire",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-moon.json" 
+      },
+      {
+        "label": "Midnight New Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-color-theme.json"
+      },
+      {
+        "label": "Midnight Moon ALT",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-moon-alt.json"
+      }
+    ]
+  }
+}
