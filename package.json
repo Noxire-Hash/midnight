@@ -1,0 +1,48 @@
+{
+  "name": "midnight-themepack",
+  "displayName": "Midnight Moon",
+  "description": "Cool blue-ish colors that dosn't hurt your eyes.",
+  "version": "0.0.12",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "publisher": "noxire",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stalker-hash/midnight"
+  },
+  "license": "MIT",
+  "icon": "./img/midnightLogo.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-moon.json"
+      },
+      {
+        "label": "Midnight Moon ALT",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-moon-alt.json"
+      },
+      {
+        "label": "Midnight Color Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-color-moon.json"
+      },
+      {
+        "label": "Midnight Dark Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-dark-moon.json"
+      },
+      {
+        "label": "Midnight Moon ALT OLD",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-moon-alt-old.json"
+      }
+    ]
+  }
+}
